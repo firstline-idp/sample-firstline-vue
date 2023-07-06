@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url("/fonts/Inter.ttf") format('truetype');
+}
+
+.no-link-style {
+  color: black !important;
+  text-decoration: none !important;
+}
